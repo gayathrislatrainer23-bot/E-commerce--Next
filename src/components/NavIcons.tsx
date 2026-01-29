@@ -25,11 +25,11 @@ setIsProfileOpen(!isProfileOpen)
 
 <Image src="/cart.png" alt="cart pic"width={22} height={22} className="cursor-pointer" onClick={()=> setIsCartOpen((prev)=>!prev)} />
 <div className="absolute -top-4 -right-4 w-5 h-5 text-xs bg-[rgb(235,9,5)] text-white rounded-full flex justify-center items-center" >1</div>
-</div>
 {
     isCartOpen && 
 <CartModel/>
 }
+</div>
         </div>
     )
 }

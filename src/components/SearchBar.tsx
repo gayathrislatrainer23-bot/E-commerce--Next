@@ -15,8 +15,8 @@ if(name){
 } 
  return(
 
-<form className="flex  justify-between gap-4 bg-gray-100 p-2 rounded-md flex-1" onSubmit={handleSearch}>
-    <input type="text" name="name" placeholder="Search" className="flex-1" />
+<form className="flex  justify-between gap-4 p-2  bg-gray-100 rounded-md flex-1 " onSubmit={handleSearch}>
+    <input type="text" name="name" placeholder="Search" className="flex-1  bg-gray-100 rounded-md   outline-none px-2 " />
     <button className="cursor-pointer">
         <Image src="/search.png" alt="" width={16}  height={16}/>
     </button>
